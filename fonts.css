@@ -3,6 +3,13 @@
   src: url(LeagueGothic-Regular.otf);
 }
 
-h1 {
-  font-family: 'League-Gothic', Arial, sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'League-Gothic', Arial, Helvetica, sans-serif !important;
+}
+
+html, body, div, html, p, a,
+form, button, .button, input, optgroup, select, textarea,
+.swal2-modal, .swal2-styled, .modal--alert, .form-label--alternate, .cart-total-grandTotal, .compareTable-heading, .productView-info-name, .maintenanceNotice-header, .account-product-detail-heading, .account-product-subtitle, .paymentMethodForm-heading, .header-logo-text
+{
+  font-family: 'Lora', Arial, Helvetica, sans-serif;
 }
